@@ -13,6 +13,7 @@
 		1916EE211E9C525D00EE3097 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1916EE201E9C525D00EE3097 /* MessagesViewController.swift */; };
 		1916EE241E9C525D00EE3097 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1916EE221E9C525D00EE3097 /* MainInterface.storyboard */; };
 		1916EE261E9C525D00EE3097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1916EE251E9C525D00EE3097 /* Assets.xcassets */; };
+		1916EE321E9C530000EE3097 /* RPSSLSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1916EE311E9C530000EE3097 /* RPSSLSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1916EE231E9C525D00EE3097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1916EE251E9C525D00EE3097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1916EE271E9C525D00EE3097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1916EE311E9C530000EE3097 /* RPSSLSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSSLSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1916EE201E9C525D00EE3097 /* MessagesViewController.swift */,
+				1916EE311E9C530000EE3097 /* RPSSLSelectionViewController.swift */,
 				1916EE221E9C525D00EE3097 /* MainInterface.storyboard */,
 				1916EE251E9C525D00EE3097 /* Assets.xcassets */,
 				1916EE271E9C525D00EE3097 /* Info.plist */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1916EE321E9C530000EE3097 /* RPSSLSelectionViewController.swift in Sources */,
 				1916EE211E9C525D00EE3097 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = 23T6468TV6;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.Rock-Paper-Scissors-Spock-Lizard.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = 23T6468TV6;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.Rock-Paper-Scissors-Spock-Lizard.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23T6468TV6;
 				INFOPLIST_FILE = "Rock Paper Scissors Spock Lizard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.Rock-Paper-Scissors-Spock-Lizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -382,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23T6468TV6;
 				INFOPLIST_FILE = "Rock Paper Scissors Spock Lizard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.Rock-Paper-Scissors-Spock-Lizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -407,6 +415,7 @@
 				1916EE2C1E9C525D00EE3097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1916EE2E1E9C525D00EE3097 /* Build configuration list for PBXNativeTarget "Rock Paper Scissors Spock Lizard" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				1916EE301E9C525D00EE3097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
